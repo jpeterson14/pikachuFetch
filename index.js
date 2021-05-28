@@ -14,5 +14,5 @@ function logResponse(response){
 
 fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
 .then(res=>res.json())
-.then(pikachu=> console.log(pikachu))
+.then(pikachu=> console.log(pikachu.sprites))
 // Write your fetch code here!
